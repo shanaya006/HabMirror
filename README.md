@@ -1,8 +1,8 @@
-# 🏹 levelUP
+# 🏹 HabMirror
 
 **Level up your life, one habit at a time!**
 
-levelUP is a **fun and interactive habit tracker** that lets you build and maintain habits while **customizing your avatar**. Complete your daily habits, watch your avatar grow, and stay motivated through a **gamified experience**.
+HabMirror is a **fun and interactive habit tracker** that lets you build and maintain habits while **customizing your avatar**. Complete your daily habits, watch your avatar grow, and stay motivated through a **gamified experience**.
 
 <br>
 
@@ -14,8 +14,8 @@ levelUP is a **fun and interactive habit tracker** that lets you build and maint
 - **Clean and Intuitive UI:** Focus on building habits without distractions.
 <br>
 
-## Why Habit Hero? 💡
-Most habit trackers are boring. levelUP combines productivity + fun, so you actually look forward to building habits every day. Level up yourself while leveling up your avatar!
+## Why HabMirror ? 💡
+Most habit trackers are boring. HabMirror combines productivity + fun, so you actually look forward to building habits every day. Level up yourself while leveling up your avatar!
 <br>
 
 ## 🛠 Tech Stack
