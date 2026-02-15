@@ -43,10 +43,3 @@ Most habit trackers are boring. HabMirror combines productivity + fun, so you ac
 - Expand avatar states
 - Add **authentication and backend** (planned)
 <br>
-
-## Demo 🎬
-
-<img width="846" height="738" alt="Screenshot 2026-01-11 at 4 05 28 AM" src="https://github.com/user-attachments/assets/ceee83a1-8d43-4c09-96d8-81daea1c5647" />
-
-<img width="847" height="748" alt="Screenshot 2026-01-11 at 4 05 40 AM" src="https://github.com/user-attachments/assets/f33424b2-03cb-4f32-9236-807d5de76da0" />
-
