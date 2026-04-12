@@ -22,6 +22,7 @@ Most habit trackers are boring. HabMirror combines productivity + fun, so you ac
 - TypeScript
 - CSS + Tailwind
 - Figma (for UX prototyping)
+- Currently evolving into a full-stack application with backend integration
 - Deployed on netlify
 <br> 
 
