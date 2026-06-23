@@ -14,8 +14,8 @@ Instead of just building a standard app, this project was approached by looking 
 
 ### 🧠 Concept & Feature Decisions
 *   **The Core Problem:** Identified that typical habit trackers feel like a chore, leading to high user drop-off after just a few days. 
-*   **The Solution:** Brainstormed with AI tools to design an MVP (Minimum Viable Product) centered on an immediate visual reward loop: an avatar that changes states based on your daily consistency.
-*   **Feature Focus:** Focused strictly on tracking logic, streaks, and basic progress graphs while leaving out complex features like social feeds to keep the initial build realistic.
+*   **The Solution:** Brainstormed and designed an MVP (Minimum Viable Product) centered on an immediate visual reward loop: an avatar that changes states based on your daily consistency.
+*   **Feature Focus:** Prioritized core logging functionality, streaks, and basic progress graphs to establish a solid foundational user experience first.
 
 ---
 
@@ -29,15 +29,15 @@ Built using a clean frontend structure with a clear plan for full-stack data per
 
 ---
 
-## 👩‍💻 My Actual Contributions
+## 👩‍💻 Key Contributions & Implementation
 
-*   **UI/UX Mapping:** Used Figma to map out exactly how a user navigates from adding a habit to seeing their avatar change state[cite: 2].
-*   **Frontend State Logic:** Wrote the conditional rendering logic in React that checks if thresholds (like water intake or steps) are met, changing the avatar asset on screen accordingly[cite: 2].
-*   **Data Visualization:** Integrated progress graphs to turn raw habit logs into simple visual trends for the user[cite: 2].
+*   **UI/UX Mapping:** Used Figma to map out exactly how a user navigates from adding a habit to seeing their avatar change state.
+*   **Frontend State Logic:** Wrote the conditional rendering logic in React that checks if thresholds (like water intake or steps) are met, changing the avatar asset on screen accordingly.
+*   **Data Visualization:** Integrated progress graphs to turn raw habit logs into simple visual trends for the user.
 
 ---
 
 ## 🔮 Next Steps & Roadmap
 
 *   **Short-Term:** Add Local Storage to keep user data from wiping out when the browser refreshes.
-*   **Medium-Term:** Set up the MongoDB database to learn how user history is structured and stored permanently[cite: 2].
+*   **Medium-Term:** Set up the MongoDB database to learn how user history is structured and stored permanently.
