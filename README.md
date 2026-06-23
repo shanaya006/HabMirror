@@ -1,49 +1,43 @@
 # 🏹 HabMirror
 
 > **Level up your life, one habit at a time!**
-> HabMirror is a gamified web platform designed to solve the chronic user retention problem in traditional productivity applications through an evolving avatar feedback engine.
+> HabMirror is a gamified habit tracker built to make daily productivity more engaging by linking your habits to an evolving visual avatar.
 
 ---
 
-## 🚀 Product Management & Strategy (MVP Scope)
+## 🚀 Product & Design Approach
 
-Before writing a single line of code, the product direction was defined by identifying core user friction points in the digital wellness space.
+Instead of just building a standard app, this project was approached by looking at why people stop using traditional habit trackers.
 
-*   📄 **[Read the Full Product Requirement Document (Notion coming soon)]**
-*   🎨 **[View Interactive High-Fidelity User Flows (Figma coming soon)]**
+*   📄 **[Read the Full Product Requirement Document (Notion Link)]**
+*   🎨 **[View User Flow Wireframes (Figma Link)]**
 
-### 🧠 Product Discovery & User Insights
-*   **The Problem:** Conducted **10+ user interviews** isolating a massive drop-off rate in traditional habit trackers due to "tracking fatigue" and lack of immediate visual gratification.
-*   **The Framework:** Applied an **Effort-vs-Impact prioritization matrix** to determine the core Minimum Viable Product (MVP) feature set. 
-*   **The Trade-off:** Intentionally deselected low-value, high-effort features (like social sharing feeds and community boards) to focus strictly on nailing the core loops: **avatar-state evolution, streaks, and real-time data visualization.**
-
-### 📈 Success Metrics (KPIs)
-*   **Primary Metric:** Day-7 (D7) and Day-30 (D30) User Retention.
-*   **Secondary Metric:** Core Action Completion Rate (percentage of created habits successfully logged as "Done" per day).
+### 🧠 Concept & Feature Decisions
+*   **The Core Problem:** Identified that typical habit trackers feel like a chore, leading to high user drop-off after just a few days. 
+*   **The Solution:** Brainstormed with AI tools to design an MVP (Minimum Viable Product) centered on an immediate visual reward loop: an avatar that changes states based on your daily consistency.
+*   **Feature Focus:** Focused strictly on tracking logic, streaks, and basic progress graphs while leaving out complex features like social feeds to keep the initial build realistic.
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+## 🛠️ Tech Stack & Structure
 
-Designed a clean, decoupled system architecture to handle responsive, real-time frontend updates based on underlying metric state pipelines.
+Built using a clean frontend structure with a clear plan for full-stack data persistence.
 
-*   **Frontend & Logic:** TypeScript, React.js, Tailwind CSS
-*   **State Management:** Component-level state tracking logic mapping user data directly to avatar asset nodes.
-*   **Deployment:** CI/CD automated via Netlify.
-*   **Backend Direction:** Transitioning into a full-stack implementation using the **MERN stack (MongoDB, Express.js, Node.js)** to enable persistent data storage and secure user authentication.
-
----
-
-## 👩‍💻 Key Engineering & Product Contributions
-
-*   **User Flow & UI Design:** Wireframed end-to-end interactive mockups to optimize user onboarding and minimize onboarding cognitive load.
-*   **Avatar Evolution Engine:** Architected the conditional rendering logic that evaluates metric inputs (steps, water intake, sleep thresholds) and triggers deterministic avatar state transformations.
-*   **Dynamic Data Visualization:** Implemented frontend charting components that translate raw historical logs into progress graphs, giving users immediate visual feedback.
+*   **Frontend Logic:** TypeScript, React.js, Tailwind CSS
+*   **Design & Planning:** Figma (for mapping out the screens and user flow)
+*   **Future Backend Plan:** Transitioning into a full-stack application using the MERN stack (MongoDB, Express.js, Node.js) to securely save user history and handle login authentication.
 
 ---
 
-## 🔮 Roadmap & Future Iterations
+## 👩‍💻 My Actual Contributions
 
-*   **Phase 1 (Data Persistence):** Integrate Local Storage to cache user sessions and prevent progress loss on reload.
-*   **Phase 2 (Database Integration):** Connect MongoDB database pipelines to securely persist cross-device user metrics and track historical progression trends.
-*   **Phase 3 (Engagement Loops):** Implement push notification triggers and personalized automated feedback scripts based on user streak thresholds.
+*   **UI/UX Mapping:** Used Figma to map out exactly how a user navigates from adding a habit to seeing their avatar change state[cite: 2].
+*   **Frontend State Logic:** Wrote the conditional rendering logic in React that checks if thresholds (like water intake or steps) are met, changing the avatar asset on screen accordingly[cite: 2].
+*   **Data Visualization:** Integrated progress graphs to turn raw habit logs into simple visual trends for the user[cite: 2].
+
+---
+
+## 🔮 Next Steps & Roadmap
+
+*   **Short-Term:** Add Local Storage to keep user data from wiping out when the browser refreshes.
+*   **Medium-Term:** Set up the MongoDB database to learn how user history is structured and stored permanently[cite: 2].
