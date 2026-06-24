@@ -9,7 +9,7 @@
 
 Instead of just building a standard app, this project was approached by looking at why people stop using traditional habit trackers.
 
-*   📄 **https://docs.google.com/document/d/1lBQhh2pf00JTIBxClwaByqJloKnN0SwgpQmG7an7tDM/edit?usp=sharing**
+*   📄 **[PRD](https://docs.google.com/document/d/1lBQhh2pf00JTIBxClwaByqJloKnN0SwgpQmG7an7tDM/edit?usp=sharing)**
 *   🎨 **[View User Flow Wireframes (Figma Link)]**
 
 ### 🧠 Concept & Feature Decisions
