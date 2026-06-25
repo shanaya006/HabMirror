@@ -10,7 +10,8 @@
 Instead of just building a standard app, this project was approached by looking at why people stop using traditional habit trackers.
 
 *   📄 **[PRD](https://docs.google.com/document/d/1lBQhh2pf00JTIBxClwaByqJloKnN0SwgpQmG7an7tDM/edit?usp=sharing)**
-*   🎨 **[View User Flow Wireframes (Figma Link)]**
+*   📋 **[Product Case Study (Notion)](https://app.notion.com/p/HabMirror-Product-Case-Study-389ce5202e9b8021a614f3ea4dcd1bd1?source=copy_link)**
+*   🎨 **[View User Flow Wireframes](https://www.figma.com/design/5BekLWZwnrBzzOaFjmcruK/HabMirror?node-id=10-57&t=mP6jgjBfogv0nVju-1)**
 
 ### 🧠 Concept & Feature Decisions
 *   **The Core Problem:** Identified that typical habit trackers feel like a chore, leading to high user drop-off after just a few days. 
@@ -31,13 +32,8 @@ Built using a clean frontend structure with a clear plan for full-stack data per
 
 ## 👩‍💻 Key Contributions & Implementation
 
-*   **UI/UX Mapping:** Used Figma to map out exactly how a user navigates from adding a habit to seeing their avatar change state.
+*   **UI/UX Mapping:** Designed the full user flow in Figma, from habit logging to avatar state change — before any code was written, to validate the experience first."
 *   **Frontend State Logic:** Wrote the conditional rendering logic in React that checks if thresholds (like water intake or steps) are met, changing the avatar asset on screen accordingly.
 *   **Data Visualization:** Integrated progress graphs to turn raw habit logs into simple visual trends for the user.
 
 ---
-
-## 🔮 Next Steps & Roadmap
-
-*   **Short-Term:** Add Local Storage to keep user data from wiping out when the browser refreshes.
-*   **Medium-Term:** Set up the MongoDB database to learn how user history is structured and stored permanently.
