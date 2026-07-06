@@ -9,8 +9,8 @@
 
 Instead of just building a standard app, this project was approached by looking at why people stop using traditional habit trackers.
 
-*   📄 **[PRD](https://docs.google.com/document/d/1lBQhh2pf00JTIBxClwaByqJloKnN0SwgpQmG7an7tDM/edit?usp=sharing)**
 *   📋 **[Product Case Study (Notion)](https://app.notion.com/p/HabMirror-Product-Case-Study-389ce5202e9b8021a614f3ea4dcd1bd1?source=copy_link)**
+*   📄 **[PRD](https://docs.google.com/document/d/1lBQhh2pf00JTIBxClwaByqJloKnN0SwgpQmG7an7tDM/edit?usp=sharing)**
 *   🎨 **[View User Flow Wireframes](https://www.figma.com/design/5BekLWZwnrBzzOaFjmcruK/HabMirror?node-id=10-57&t=mP6jgjBfogv0nVju-1)**
 
 ### 🧠 Concept & Feature Decisions
